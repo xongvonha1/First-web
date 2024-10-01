@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/GOAT.png" type="image/png">
+    <title>Learning basic html, css</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to my first web</h1>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Contract</a>
+        <a href="#">Product</a>
+        <hr width="70%" style="margin: auto; margin-top: 50px; border: 1px solid #ddd; margin-bottom: 50px;">
+    </header>
+    <main>
+        <h2 id="login">Login</h2>
+        <div class="container">
+            <form action="#" method="post" class="form">
+                <div class="form-row">
+                    <label for="username">Ussername</label>
+                    <!-- when you click label the cursor focus this input which attribute for value -->
+                    <input type="text" id="username" required placeholder="Enter you username">
+                </div>
+        
+                <div class="form-row">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter your password" minlength="6" maxlength="25" required>
+                </div>
+    
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Email" required>
+                </div>
+    
+                <div class="form-row">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" pattern="[0]{1}[1-9]{2}[0-9]{7}" placeholder="000-000-0000">
+                </div>
+    
+                <div class="form-btn">
+                    <button type="submit" class="btn-button">Send</button>
+                    <button type="reset" class="btn-button">Cancel</button>
+                </div>
+                
+            </form>
+        </div>
+        <hr width="70%" style="margin: auto; margin-top: 50px; border: 1px solid #ddd; margin-bottom: 50px;">
+    </main>
+
+    <footer>
+        author: The Anh <br>
+        &coppy; Copyright reserved <br>
+        <small><a href="mailto: xongvonha@gmail.com">xongvonha@gmail.com</a></small>
+    </footer>
+</body>
+</html>
